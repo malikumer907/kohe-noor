@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Background</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+            position: relative;
+        }
+
+        body {
+            background: url('opme.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        h1 {
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>R U SURE TO CONTINUE..... THINK AGAIN MISS!!</h1>
+        <a href="sec5.html">CONTINUE!!!</a>
+    </div>
+</body>
+</html>
